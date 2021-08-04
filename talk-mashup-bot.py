@@ -67,7 +67,7 @@ title_first_part = beginners[random.randrange(1, beginners_length)]
 title_last_part = enders[random.randrange(1, enders_length)]
 
 # putting it all together: what's the new talk title?
-tweet_text = title_first_part + ' ' + title_last_part
+tweet_text = 'Upcoming ALA talk - ' + title_first_part + ' ' + title_last_part
 print(tweet_text)
 
 # tweet it
